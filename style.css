@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scrollbar-width: none;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+.con {
+    width: 1080px;
+}
+
+/* 
+.poppins-thin - 100
+.poppins-extralight - 200
+.poppins-light - 300
+.poppins-regular - 400
+.poppins-medium - 500
+.poppins-semibold - 600
+.poppins-bold - 700
+.poppins-extrabold - 800
+.poppins-black - 900
+*/
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.hero-section {
+    height: 100vh;
+    /* max-width: 1300px; */
+    margin-inline: auto;
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    margin-inline: auto;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8) 20%, rgb(0, 0, 0, 0.75) 70%, rgb(0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.hero-section .main-container nav {
+    height: 140px;
+    max-width: 1500px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 30px;
+    /* border: 2px solid red; */
+}
+
+.hero-section .main-container nav .logo {
+    height: 80px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/Netflix_Logo_PMS.png);
+}
+
+nav .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: transparent;
+    border: 1px solid grey;
+}
+
+.btn-signIn {
+    border: 0;
+    background-color: #E50914;
+}
+
+/*  */
+.membership {
+    width: 600px;
+    margin-inline: auto;
+    color: white;
+    text-align: center;
+    margin-block: 150px;
+}
+
+.membership h1 {
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.membership h5 {
+    font-weight: 400;
+    font-size: 20px;
+    padding-block: 20px;
+}
+
+.membership p,
+.mem {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.membership .get-started {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-block: 15px;
+}
+
+.membership .get-started input {
+    outline: 0;
+    width: 70%;
+    font-size: 18px;
+    padding: 8px 15px;
+    background-color: rgb(0, 0, 0, 0.1);
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 5px;
+}
+
+.membership .get-started .btn {
+    font-size: 20px;
+    font-weight: 500;
+    width: 30%;
+    padding: 8px 15px;
+}
+
+/* trending */
+.trending {
+    background-color: #000000;
+}
+
+.heading{
+    width: 1000px;
+}
+
+.trending-con {
+    width: 1025px;
+    margin-inline: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.btn-trending {
+    width: 1000px;
+    margin-inline: auto;
+    margin-block: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    width: 185px;
+    height: 260px;
+    background-size: contain;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+#trending-con .content:nth-child(1) {
+    background-image: url(./assets/India-movies/asset\ 2.webp);
+}
+
+#trending-con .content:nth-child(2) {
+    background-image: url(./assets/India-movies/asset\ 3.webp);
+}
+
+#trending-con .content:nth-child(3) {
+    background-image: url(./assets/India-movies/asset\ 4.webp);
+}
+
+#trending-con .content:nth-child(4) {
+    background-image: url(./assets/India-movies/asset\ 5.webp);
+}
+
+#trending-con .content:nth-child(5) {
+    background-image: url(./assets/India-movies/asset\ 7.webp);
+}
+
+#trending-con .content:nth-child(6) {
+    background-image: url(./assets/India-movies/asset\ 8.webp);
+}
+
+#trending-con .content:nth-child(7) {
+    background-image: url(./assets/India-movies/asset\ 9.webp);
+}
+
+#trending-con .content:nth-child(8) {
+    background-image: url(./assets/India-movies/asset\ 10.webp);
+}
+
+#trending-con .content:nth-child(9) {
+    background-image: url(./assets/India-movies/asset\ 11.webp);
+}
+
+#trending-con .content:nth-child(10) {
+    background-image: url(./assets/India-movies/asset\ 6.webp);
+}
+
+#trending-con1 .content:nth-child(1) {
+    background-image: url(./assets/India-tv-shows/asset\ 2.webp);
+}
+
+#trending-con1 .content:nth-child(2) {
+    background-image: url(./assets/India-tv-shows/asset\ 3.webp);
+}
+
+#trending-con1 .content:nth-child(3) {
+    background-image: url(./assets/India-tv-shows/asset\ 4.webp);
+}
+
+#trending-con1 .content:nth-child(4) {
+    background-image: url(./assets/India-tv-shows/asset\ 5.webp);
+}
+
+#trending-con1 .content:nth-child(5) {
+    background-image: url(./assets/India-tv-shows/asset\ 7.webp);
+}
+
+#trending-con1 .content:nth-child(6) {
+    background-image: url(./assets/India-tv-shows/asset\ 8.webp);
+}
+
+#trending-con1 .content:nth-child(7) {
+    background-image: url(./assets/India-tv-shows/asset\ 9.webp);
+}
+
+#trending-con1 .content:nth-child(8) {
+    background-image: url(./assets/India-tv-shows/asset\ 10.webp);
+}
+
+#trending-con1 .content:nth-child(9) {
+    background-image: url(./assets/India-tv-shows/asset\ 11.webp);
+}
+
+#trending-con1 .content:nth-child(10) {
+    background-image: url(./assets/India-tv-shows/asset\ 6.webp);
+}
+
+#trending-con2 .content:nth-child(1) {
+    background-image: url(./assets/global-movies-english/asset\ 2.webp);
+}
+
+#trending-con2 .content:nth-child(2) {
+    background-image: url(./assets/global-movies-english/asset\ 3.webp);
+}
+
+#trending-con2 .content:nth-child(3) {
+    background-image: url(./assets/global-movies-english/asset\ 4.webp);
+}
+
+#trending-con2 .content:nth-child(4) {
+    background-image: url(./assets/global-movies-english/asset\ 5.webp);
+}
+
+#trending-con2 .content:nth-child(5) {
+    background-image: url(./assets/global-movies-english/asset\ 7.webp);
+}
+
+#trending-con2 .content:nth-child(6) {
+    background-image: url(./assets/global-movies-english/asset\ 8.webp);
+}
+
+#trending-con2 .content:nth-child(7) {
+    background-image: url(./assets/global-movies-english/asset\ 9.webp);
+}
+
+#trending-con2 .content:nth-child(8) {
+    background-image: url(./assets/global-movies-english/asset\ 10.webp);
+}
+
+#trending-con2 .content:nth-child(9) {
+    background-image: url(./assets/global-movies-english/asset\ 11.webp);
+}
+
+#trending-con2 .content:nth-child(10) {
+    background-image: url(./assets/global-movies-english/asset\ 6.webp);
+}
+
+
+#trending-con3 .content:nth-child(1) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 2.webp);
+}
+
+#trending-con3 .content:nth-child(2) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 3.webp);
+}
+
+#trending-con3 .content:nth-child(3) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 4.webp);
+}
+
+#trending-con3 .content:nth-child(4) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 5.webp);
+}
+
+#trending-con3 .content:nth-child(5) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 7.webp);
+}
+
+#trending-con3 .content:nth-child(6) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 8.webp);
+}
+
+#trending-con3 .content:nth-child(7) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 9.webp);
+}
+
+#trending-con3 .content:nth-child(8) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 10.webp);
+}
+
+#trending-con3 .content:nth-child(9) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 11.webp);
+}
+
+#trending-con3 .content:nth-child(10) {
+    background-image: url(./assets/global-tv-shows-eng/asset\ 6.webp);
+}
+
+#india-movies {
+    display: block;
+}
+
+#india-tv-shows,
+#global-movies,
+#global-tv-shows {
+    display: none;
+}
+
+.btn-con {
+    width: 1100px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.nav {
+    font-size: 30px;
+    padding: 30px 5px;
+    background-color: #1A1A1A;
+    color: grey;
+    border-radius: 4px;
+    border: 0;
+}
+
+.nav:hover {
+    background-color: grey;
+    color: white;
+}
+
+/* main-section */
+
+.main-section .con, .FAQ .con{
+    font-size: 26px;
+}
+
+.main-section {
+    height: fit-content;
+    width: 100vw;
+    background-color: #000000;
+    padding-block: 20px;
+}
+
+.cards {
+    margin-inline: auto;
+    display: flex;
+    gap: 20px;
+
+}
+
+.card {
+    height: 260px;
+    width: 260px;
+    background-image: linear-gradient(to bottom right, #192145, #210E17);
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 28px;
+}
+
+.svg {
+    width: 100%;
+}
+
+.svg .img {
+    float: right;
+    height: 70px;
+    width: 70px;
+}
+
+.svg .img-1 {
+    background-image: url(./assets/hand-star.svg);
+}
+
+.svg .img-2 {
+    background-image: url(./assets/hand-shake.svg);
+}
+
+.svg .img-3 {
+    background-image: url(./assets/heart.svg);
+}
+
+.svg .img-4 {
+    background-image: url(./assets/tv.svg);
+}
+
+/*FAQ*/
+.FAQ {
+    color: rgb(210, 210, 210);
+    margin-inline: auto;
+    margin-block: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition-duration: 1s;
+}
+
+.que {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    background-color: #2D2D2D;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.que:hover {
+    background-color: #464646;
+    cursor: pointer;
+}
+
+.que i {
+    rotate: 0deg;
+}
+
+.desc {
+    display: none;
+    margin-top: 2px;
+    font-size: 20px;
+    background-color: #2D2D2D;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+/* footer */
+.footer-top {
+    margin-inline: auto;
+}
+
+.footer-top .mem {
+    margin-bottom: 10px;
+}
+
+.footer-top input {
+    outline: 0;
+    width: 70%;
+    font-size: 18px;
+    padding: 10px 18px;
+    background-color: rgb(0, 0, 0, 0.1);
+    border: 1px solid grey;
+    color: rgb(158, 158, 158);
+    border-radius: 5px;
+}
+
+.footer-top .btn-signIn {
+    font-size: 20px;
+}
+
+.footer-links {
+    color: #b2b2b2;
+    margin-inline: auto;
+    margin-block: 30px;
+}
+
+.footer-links span {
+    display: flex;
+    gap: 10px;
+}
+
+.links-con {
+    margin-block: 40px;
+    margin-inline: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.links {
+    list-style: none;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.links a {
+    color: #b2b2b2;
+}
+
+.options {
+    display: none;
+    position: absolute;
+}
+
+.options .option1 {
+    width: 96%;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+}
+
+.option1:hover {
+    background-color: #1A1E3E;
+    color: white;
+}
+
+.options .option2 {
+    width: 96%;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+}
+
+.options .option2:hover {
+    background-color: #1A1E3E;
+    color: white;
+}
+
+#google_translate_element select {
+    font-weight: 500;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+}

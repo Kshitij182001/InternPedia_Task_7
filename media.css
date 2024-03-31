@@ -1,0 +1,652 @@
+@media screen and (max-width:1100px) {
+    .con {
+        width: 1000px;
+        transition-duration: 0.4s;
+
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .con {
+        width: 950px;
+    }
+
+    .btn-trending {
+        width: 950px;
+        transition-duration: 0.4s;
+    }
+
+    .trending-con {
+        width: 860px;
+        transition-duration: 0.4s;
+    }
+
+    .btn-con {
+        width: 950px;
+        transition-duration: 0.4s;
+    }
+
+    .card h2 {
+        font-size: 26px;
+        transition-duration: 0.4s;
+    }
+
+}
+
+@media screen and (max-width:960px) {
+    .con {
+        width: 900px;
+    }
+
+    .btn-trending {
+        width: 900px;
+    }
+
+    .trending-con {
+        width: 820px;
+    }
+
+    .btn-con {
+        width: 900px;
+    }
+
+    .card h2 {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width:910px) {
+    .con {
+        width: 850px;
+    }
+
+    .btn-trending {
+        width: 850px;
+    }
+
+    .trending-con {
+        width: 740px;
+    }
+
+    .btn-con {
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width:880px) {
+    .con {
+        width: 800px;
+    }
+
+    .cards {
+        flex-direction: column;
+        transition-duration: 0.4s;
+    }
+
+    .card {
+        flex-shrink: 0;
+        width: 800px;
+        height: fit-content;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        transition-duration: 0.4s;
+    }
+
+    .btn-trending {
+        width: 740px;
+    }
+
+    .trending-con {
+        width: 740px;
+    }
+
+    .btn-con {
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width:830px) {
+    .con {
+        width: 740px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-shrink: 0;
+        width: 740px;
+        height: fit-content;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn-trending {
+        width: 700px;
+    }
+
+    .trending-con {
+        width: 740px;
+    }
+
+    .btn-con {
+        width: 740px;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .con {
+        width: 700px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-shrink: 0;
+        width: 700px;
+        height: fit-content;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn-trending {
+        width: 700px;
+    }
+
+    .trending-con {
+        width: 615px;
+    }
+
+    .btn-con {
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width:720px) {
+    .con {
+        width: 650px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-shrink: 0;
+        width: 650px;
+        height: fit-content;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn-trending {
+        width: 650px;
+    }
+
+    .trending-con {
+        width: 615px;
+    }
+
+    .btn-con {
+        width: 650px;
+    }
+
+}
+
+@media screen and (max-width:660px) {
+    .con {
+        width: 600px;
+    }
+
+    .membership h1 {
+        font-size: 42px;
+        transition-duration: 0.4s;
+    }
+
+    .membership h5 {
+        font-size: 20px;
+        transition-duration: 0.4s;
+    }
+
+    .membership p,
+    .mem {
+        font-size: 16px;
+        transition-duration: 0.4s;
+    }
+
+    .membership .get-started input {
+        font-size: 18px;
+        transition-duration: 0.4s;
+    }
+
+    .membership .get-started .btn {
+        font-size: 18px;
+        transition-duration: 0.4s;
+    }
+
+    .card h2 {
+        font-size: 24px;
+        transition-duration: 0.4s;
+    }
+
+    .svg {
+        width: 40%;
+        transition-duration: 0.4s;
+    }
+
+    .svg .img {
+        float: right;
+        height: 70px;
+        width: 70px;
+        transition-duration: 0.4s;
+    }
+
+    .que {
+        font-size: 20px;
+        transition-duration: 0.4s;
+    }
+
+    .footer-top input {
+        width: 65%;
+        font-size: 18px;
+        transition-duration: 0.4s;
+    }
+
+    .footer-top .btn-signIn {
+        font-size: 18px;
+        transition-duration: 0.4s;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-shrink: 0;
+        width: 600px;
+        height: fit-content;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn-trending {
+        width: 600px;
+    }
+
+    .trending-con {
+        width: 510px;
+    }
+
+    .content {
+        width: 150px;
+        height: 210px;
+        /* background-size: cover; */
+        transition-duration: 0.4s;
+    }
+
+    .btn-con {
+        width: 600px;
+        bottom: 160px;
+    }
+
+}
+
+@media screen and (max-width:630px) {
+    .con {
+        width: 550px;
+    }
+
+    .membership {
+        width: 550px;
+    }
+
+    .membership h1 {
+        font-size: 42px;
+    }
+
+    .membership h5 {
+        font-size: 20px;
+    }
+
+    .membership p,
+    .mem {
+        font-size: 16px;
+    }
+
+    .membership .get-started input {
+        font-size: 18px;
+    }
+
+    .membership .get-started .btn {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 550px;
+    }
+
+    .btn-trending {
+        width: 550px;
+    }
+
+    .trending-con {
+        width: 510px;
+    }
+
+    .btn-con {
+        width: 550px;
+        bottom: 160px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .con {
+        width: 500px;
+    }
+
+    .membership {
+        width: 500px;
+    }
+
+    .membership h1 {
+        font-size: 42px;
+    }
+
+    .membership h5 {
+        font-size: 20px;
+    }
+
+    .membership p,
+    .mem {
+        font-size: 16px;
+    }
+
+    .membership .get-started input {
+        font-size: 16px;
+    }
+
+    .membership .get-started .btn {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 500px;
+    }
+
+    .btn-trending {
+        width: 500px;
+    }
+
+    .trending-con {
+        width: 510px;
+    }
+
+    .btn-con {
+        width: 500px;
+        bottom: 160px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .con {
+        width: 450px;
+    }
+
+    .membership {
+        width: 450px;
+    }
+
+    .membership h1 {
+        font-size: 42px;
+    }
+
+    .membership h5 {
+        font-size: 20px;
+    }
+
+    .membership p,
+    .mem {
+        font-size: 16px;
+    }
+
+    .membership .get-started input {
+        font-size: 14px;
+        width: 65%;
+
+    }
+
+    .membership .get-started .btn {
+        font-size: 14px;
+    }
+
+    .footer-top input {
+        width: 65%;
+        font-size: 14px;
+    }
+
+    .footer-top .btn-signIn {
+        font-size: 14px;
+    }
+
+    .que {
+        font-size: 18px;
+        transition-duration: 0.4s;
+    }
+
+    .card {
+        width: 450px;
+    }
+
+    .btn-trending {
+        width: 450px;
+    }
+
+    .trending-con {
+        width: 415px;
+    }
+
+    .btn-con {
+        width: 450px;
+        bottom: 160px;
+    }
+
+    .links-con {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 0.4s;
+        gap: 20px;
+    }
+
+    .links {
+        width: 150px;
+        transition-duration: 0.4s;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .con {
+        width: 400px;
+    }
+
+    .hero-section .main-container nav {
+        height: 80px;
+        padding-top: 20px;
+        transition-duration: 0.4s;
+    }
+
+    .hero-section .main-container nav .logo {
+        height: 60px;
+        width: 150px;
+        transition-duration: 0.4s;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .membership {
+        width: 400px;
+        margin-block: 100px;
+
+    }
+
+    .membership h1 {
+        font-size: 42px;
+    }
+
+    .membership h5 {
+        font-size: 20px;
+    }
+
+    .membership p,
+    .mem {
+        font-size: 16px;
+    }
+
+    .membership .get-started input {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .membership .get-started .btn {
+        width: 40%;
+        font-size: 14px;
+    }
+
+    .footer-top input {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .footer-top .btn-signIn {
+        font-size: 14px;
+    }
+
+    .que {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 400px;
+    }
+
+    .btn-trending {
+        width: 400px;
+    }
+
+    .trending-con {
+        width: 430px;
+    }
+
+    .btn-con {
+        width: 400px;
+        bottom: 160px;
+    }
+
+    .links-con {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .links {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .con {
+        width: 360px;
+    }
+
+    .membership {
+        width: 360px;
+    }
+
+    .membership h1 {
+        font-size: 36px;
+    }
+
+    .membership h5 {
+        font-size: 18px;
+    }
+
+    .membership p,
+    .mem {
+        font-size: 16px;
+    }
+
+    .membership .get-started input {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .membership .get-started .btn {
+        width: 40%;
+        font-size: 14px;
+    }
+
+    .main-section .con, .FAQ .con{
+        font-size: 20px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .footer-top input {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .footer-top .btn-signIn {
+        font-size: 14px;
+    }
+
+    .que {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 360px;
+    }
+
+    .btn-trending {
+        width: 360px;
+    }
+
+    .trending-con {
+        width: 340px;
+    }
+
+    .btn-con {
+        width: 360px;
+        bottom: 160px;
+    }
+
+    .links-con {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .links {
+        width: 150px;
+    }
+}
